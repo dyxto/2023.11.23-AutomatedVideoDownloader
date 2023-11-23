@@ -21,10 +21,10 @@ for i, line in enumerate(links, start=1):
             mp3_file = audio_MP4 + '.mp3'
             os.rename(audio_MP4, mp3_file)
 
-            print(f" ...Done_{i}")
+            print(f" ...Done_{i}\n")
 
     except:
-        print(f"ERROR: video {i} skipped. check url.\n")
+        print(f"ERROR: video {i} skipped.\n")
 
 # clear the LINKS FILE after download complete
 # links = open('links.txt', 'w')
